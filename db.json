@@ -1,4 +1,5 @@
-{
+[
+    {
     "searchField": [
       {
         "mnemonic":"T0_STATUS",
@@ -193,5 +194,1311 @@
         "value":""
       }
     ]
-}
+  },
+  {
+    "dataSources": [
+    {
+        "DS_TOT": [
+            {"label": "Illinois Access and Review", "value":"RAR"},            
+            {"label": "Illinois Arrest Submission", "value":"ARR"},            
+            {"label": "Illinois Criminal Justice Applicant", "value":"APP"},            
+            {"label": "Illinois Custodial Receipt", "value":"CUR"},    
+            {"label": "Illinois Fee Applicant", "value":"FAP"},
+            {"label": "Illinois Fingerprint Inquiry", "value":"FPQ"},
+            {"label": "Illinois Juvenile Arrest", "value":"JUV"},            
+            {"label": "Illinois UCIA Fingerprint Request", "value":"UFP"}           
+        ]
+    },
+    {
+        "DS_SEX": [
+        {
+          "label":"Male",
+          "value":"M" 
+        },
+        {
+          "label":"Female",
+          "value":"F"
+        },
+        {
+          "label":"Other",
+          "value":"U"
+        }
+      ]
+    },
+    {
+      "DS_EYE": [
+        {
+          "label": "Black",
+          "value":  "BLK"
+        },
+        {
+          "label": "Blue",
+          "value":  "BLU"
+        },
+        {
+          "label": "Brown",
+          "value":  "BRO"                
+        },
+        {
+          "label": "Gray",
+          "value":  "GRY"                
+        },
+        {
+          "label": "Green",
+          "value":  "GRN"                
+        },
+        {
+          "label": "Hazel",
+          "value":  "HAZ"                
+        },
+        {
+          "label": "Maroon",
+          "value":  "MAR"                
+        },
+        {
+          "label": "Pink",
+          "value":  "PNK"                
+        },
+        {
+          "label": "Other",
+          "value":  "XXX"
+        }
+      ]
+    },
+    {
+      "DS_HAI": [
+        {
+          "label":"Bald",
+          "value": "BAL"
+        },
+        {
+          "label":"Black",
+          "value":  "BLK"
+        },
+        {
+          "label":"Blond or Strawberry",
+           "value": "BLN"
+        },
+        {
+          "label":"Blue",
+          "value":  "BLU"
+        },
+        {
+          "label":"Brown",
+          "value":  "BRO"
+        },
+        {
+          "label":"Gray or Part Gray",
+          "value":  "GRY"
+        },
+        {
+          "label": "Green",
+          "value":  "GRN"
+        },
+        {
+          "label": "Orange",
+          "value":  "ONG"
+        },
+        {
+          "label": "Pink",
+          "value":  "PNK"
+        },
+        {
+          "label": "Purple",
+          "value":  "PLE"
+        },
+        {
+          "label":"Red or Auburn",
+          "value":  "RED"
+        },
+        {
+          "label":"Sandy",
+          "value":  "SDY"
+        },
+        {
+          "label":"White",
+          "value":  "WHI"
+          
+        },
+        {
+          "label":"Other",
+          "value":  "XXX"
+        }
+      ]
+    },
+    {
+      "DS_POB": [
+        {
+          "value":  "AF",
+          "label":  "AFGHANISTAN"
+          
+        },
+        {
+          "value":"AG",
+           "label": "AGUASCALIENTES, MEXICO"
+          
+        },
+        {
+          "value": "AL",
+          "label": "ALABAMA"
+          
+        },
+        {
+          "value": "AK",
+          "label": "ALASKA"
+        },
+        {
+          "value":
+            "AA",
+          "label":  "ALBANIA"
+        },
+        {
+          "value":
+            "AB",
+          "label":  "ALBERTA, CANADA"
+        },
+        {
+          "value":
+            "AN",
+          "label":  "ALGERIA"
+        },
+        {
+          "value":
+            "YY", "label": "ALL OTHERS"
+        },
+        {
+          "value":
+            "AM",
+           "label": "AMERICAN SAMOA"
+        },
+        {
+          "value":
+            "AD", "label": "ANDORRA"
+        },
+        {
+          "value":
+            "AO", "label": "ANGOLA"
+        },
+        {
+          "value":
+            "AE", "label": "ANGUILLA"
+        },
+        { "value": "AY", "label": "ANTARCTICA"
+        },
+        {
+          "value":
+            "AI", "label": "ANTIGUA AND BARBUDA"
+        },
+        {
+          "value":
+            "AT", "label": "ARGENTINA"
+        },
+        {
+          "value":
+            "AZ", "label": "ARIZONA"
+        },
+        {
+          "value":
+            "AR", "label": "ARKANSAS"
+        },
+        {
+          "value":
+            "AP", "label": "ARMENIA"
+        },
+        {
+          "value":
+            "AJ", "label": "ARUBA"
+        },
+        {
+          "value":
+            "AH", "label": "ASHMORE & CARTIER ISLAND"
+        },
+        {
+          "value":
+            "AS", "label": "AUSTRALIA"
+        },
+        { "value": "AU", "label": "AUSTRIA"
+        },
+        { "value": "AV", "label": "AZERBAIJAN"
+        },
+        { "value": "AQ", "label": "AZORES ISLANDS"
+        },
+        { "value": "BD", "label": "BAHAMAS, THE"
+        },
+        { "value": "BE", "label": "BAHRAIN/BAHREIN"
+        },
+        { "value": "BJ", "label": "BAJA CALIFORNIA SUR, MEXICO"
+        },
+        { "value": "BA", "label": "BAJA CALIFORNIA, MEXICO"
+        },
+        { "value": "BW", "label": "BALEARIC ISLANDS"
+        },
+        { "value": "BL", "label": "BANGLADESH"
+        },
+        { "value": "BB", "label": "BARBADOS"
+        },
+        { "value": "BF", "label": "BASSAS DA INDIA"
+        },
+        { "value": "BY", "label": "BELARUS"
+        },
+        { "value": "BG", "label": "BELGIUM"
+        },
+        { "value": "BH", "label": "BELIZE"
+        },
+        { "value": "DH", "label": "BENIN"
+        },
+        { "value": "BM", "label": "BERMUDA"
+        },
+        { "value": "BN", "label": "BHUTAN"
+        },
+        { "value": "BV", "label": "BOLIVIA"
+        },
+        { "value": "BP", "label": "BOSNIA & HERZEGOVINA"
+        },
+        { "value": "BT", "label": "BOTSWANA"
+        },
+        { "value": "BQ", "label": "BOUVET ISLAND"
+        },
+        { "value": "BZ", "label": "BRAZIL"
+        },
+        { "value": "BC", "label": "BRITISH COLUMBIA, CANADA"
+        },
+        { "value": "B0", "label": "BRITISH INDIAN OCEAN"
+        },
+        { "value": "BO", "label": "BRITISH INDIAN OCEAN TERRITORY"
+        },
+        { "value": "VB", "label": "BRITISH VIRGIN ISLANDS"
+        },
+        { "value": "BX", "label": "BRUNEI"
+        },
+        { "value": "BU", "label": "BULGARIA"
+        },
+        { "value": "UV", "label": "BURKINA FASO"
+        },
+        { "value": "BR", "label": "BURMA"
+        },
+        { "value": "BI", "label": "BURUNDI"
+        },
+        { "value": "CA", "label": "CALIFORNIA"
+        },
+        { "value": "CJ", "label": "CAMBODIA"
+        },
+        { "value": "CM", "label": "CAMEROON"
+        },
+        { "value": "CE", "label": "CAMPECHE, MEXICO"
+        },
+        { "value": "CD", "label": "CANADA"
+        },
+        { "value": "CZ", "label": "CANAL ZONE"
+        },
+        { "value": "ZI", "label": "CANARY ISLANDS"
+        },
+        { "value": "CV", "label": "CAPE VERDE ISLANDS"
+        },
+        { "value": "CG", "label": "CAROLINE ISLANDS"
+        },
+        { "value": "CP", "label": "CAYMAN ISLANDS"
+        },
+        { "value": "CW", "label": "CENTRAL AFRICAN REPUBLIC"
+        },
+        { "value": "CF", "label": "CHAD"
+        },
+        { "value": "CI", "label": "CHIAPAS, MEXICO"
+        },
+        { "value": "CH", "label": "CHIHUAHUA, MEXICO"
+        },
+        { "value": "CQ", "label": "CHILE"
+        },
+        { "value": "HR", "label": "CHRISTMAS ISLAND"
+        },
+        { "value": "DB", "label": "CLIPPERTON ISLAND"
+        },
+        { "value": "CU", "label": "COAHUILA, MEXICO"
+        },
+        { "value": "DD", "label": "COCOS (KEELING) ISLANDS"
+        },
+        { "value": "CL", "label": "COLIMA, MEXICO"
+        },
+        { "value": "CO", "label": "COLORADO"
+        },
+        { "value": "CB", "label": "COLUMBIA"
+        },
+        { "value": "DG", "label": "COMOROS"
+        },
+        { "value": "CX", "label": "CONGO"
+        },
+        { "value": "CT", "label": "CONNECTICUT"
+        },
+        { "value": "DI", "label": "COOK ISLANDS"
+        },
+        { "value": "DJ", "label": "CORAL SEA ISLANDS"
+        },
+        { "value": "CR", "label": "COSTA RICA"
+        },
+        { "value": "KC", "label": "CROATIA"
+        },
+        { "value": "CC", "label": "CUBA"
+        },
+        { "value": "CS", "label": "CYPRUS"
+        },
+        { "value": "EZ", "label": "CZECH REPUBLIC"
+        },
+        { "value": "CK", "label": "CZECHOSLOVAKIA"
+        },
+        { "value": "DE", "label": "DELAWARE"
+        },
+        { "value": "DK", "label": "DENMARK"
+        },
+        { "value": "DL", "label": "DEVIL'S LAKE SIOUX TRIBE"
+        },
+        { "value": "DC", "label": "DISTRICT OF COLUMBIA"
+        },
+        { "value": "DF", "label": "DISTRITO FEDERAL, MEXICO"
+        },
+        { "value": "DN", "label": "DJIBOUTI"
+        },
+        { "value": "DM", "label": "DOMINICA"
+        },
+        { "value": "DR", "label": "DOMINICAN REPUBLIC"
+        },
+        { "value": "DU", "label": "DUCIE ISLANDS"
+        },
+        { "value": "DO", "label": "DURANGO, MEXICO"
+        },
+        { "value": "EM", "label": "EAST GERMANY"
+        },
+        { "value": "EU", "label": "ECUADOR"
+        },
+        { "value": "EY", "label": "EGYPT"
+        },
+        { "value": "EL", "label": "EL SALVADOR"
+        },
+        { "value": "EN", "label": "ENGLAND"
+        },
+        { "value": "EK", "label": "EQUATORIAL GUINEA"
+        },
+        { "value": "ES", "label": "ESTONIA"
+        },
+        { "value": "EO", "label": "ETHIOPIA"
+        },
+        { "value": "ER", "label": "EUROPA ISLAND"
+        },
+        { "value": "FA", "label": "FALKLAND ISLANDS"
+        },
+        { "value": "FO", "label": "FAROE ISLANDS"
+        },
+        { "value": "FS", "label": "FEDERATED STATES OF MICRONESIA"
+        },
+        { "value": "FJ", "label": "FIJI"
+        },
+        { "value": "FD", "label": "FINLAND"
+        },
+        { "value": "FL", "label": "FLORIDA"
+        },
+        { "value": "FC", "label": "FOND DU LAC"
+        },
+        { "value": "FN", "label": "FRANCE"
+        },
+        { "value": "FG", "label": "FRENCH GUIANA"
+        },
+        { "value": "FP", "label": "FRENCH POLYNESIA"
+        },
+        { "value": "FR", "label": "FRENCH SOUTHERN & ANTARCTIC LANDS"
+        },
+        { "value": "GB", "label": "GABON"
+        },
+        { "value": "GD", "label": "GEORGIA"
+        },
+        { "value": "GK", "label": "GAMBIA, THE"
+        },
+        { "value": "GZ", "label": "GAZA"
+        },
+        { "value": "GA", "label": "GEORGIA"
+        },
+        { "value": "GE", "label": "GERMANY"
+        },
+        { "value": "GG", "label": "GHANA"
+        },
+        { "value": "RG", "label": "GIBRALTAR"
+        },
+        { "value": "GL", "label": "GILBERT AND ELLICE ISLANDS"
+        },
+        { "value": "GO", "label": "GLORIOSO ISLANDS"
+        },
+        { "value": "GC", "label": "GREECE"
+        },
+        { "value": "GN", "label": "GREENLAND"
+        },
+        { "value": "GJ", "label": "GRENADA"
+        },
+        { "value": "GP", "label": "GUADELOUPE"
+        },
+        { "value": "GM", "label": "GUAM"
+        },
+        { "value": "GU", "label": "GUANAJUATO, MEXICO"
+        },
+        { "value": "GT", "label": "GUATEMALA"
+        },
+        { "value": "GF", "label": "GUERNSEY"
+        },
+        { "value": "GR", "label": "GUERRERO, MEXICO"
+        },
+        { "value": "GI", "label": "GUINEA"
+        },
+        { "value": "PG", "label": "GUINEA-BISSAU"
+        },
+        { "value": "GY", "label": "GUYANA"
+        },
+        { "value": "HT", "label": "HAITI"
+        },
+        { "value": "HI", "label": "HAWAII"
+        },
+        { "value": "HE", "label": "HEARD ISLAND & MCDONALD ISLAND"
+        },
+        { "value": "HL", "label": "HIDALGO, MEXICO"
+        },
+        { "value": "HD", "label": "HONDURAS"
+        },
+        { "value": "HK", "label": "HONG KONG"
+        },
+        { "value": "HU", "label": "HUNGARY"
+        },
+        { "value": "IC", "label": "ICELAND"
+        },
+        { "value": "ID", "label": "IDAHO"
+        },
+        { "value": "IL", "label": "ILLINOIS"
+        },
+        { "value": "II", "label": "INDIA"
+        },
+        { "value": "IN", "label": "INDIANA"
+        },
+        { "value": "IO", "label": "INDONESIA"
+        },
+        { "value": "IA", "label": "IOWA"
+        },
+        { "value": "IR", "label": "IRAN"
+        },
+        { "value": "IQ", "label": "IRAQ"
+        },
+        { "value": "IE", "label": "IRELAND"
+        },
+        { "value": "IS", "label": "ISRAEL"
+        },
+        { "value": "IT", "label": "ITALY"
+        },
+        { "value": "IY", "label": "IVORY COAST"
+        },
+        { "value": "JL", "label": "JALISCO, MEXICO"
+        },
+        { "value": "JM", "label": "JAMAICA"
+        },
+        { "value": "JN", "label": "JAN MAYEN"
+        },
+        { "value": "JA", "label": "JAPAN"
+        },
+        { "value": "JE", "label": "JERSEY"
+        },
+        { "value": "JI", "label": "JOHNSTON ISLAND"
+        },
+        { "value": "JO", "label": "JORDAN"
+        },
+        { "value": "JU", "label": "JUAN DE NOVA ISLAND"
+        },
+        { "value": "KS", "label": "KANSAS"
+        },
+        { "value": "KT", "label": "KAZAKHSTAN"
+        },
+        { "value": "KY", "label": "KENTUCKY"
+        },
+        { "value": "KE", "label": "KENYA"
+        },
+        { "value": "KW", "label": "KIOWA"
+        },
+        { "value": "KB", "label": "KIRIBATI"
+        },
+        { "value": "KR", "label": "KOREA"
+        },
+        { "value": "KU", "label": "KUWAIT"
+        },
+        { "value": "KZ", "label": "KYRGYZSTAN"
+        },
+        { "value": "LS", "label": "LAOS"
+        },
+        { "value": "LT", "label": "LATVIA"
+        },
+        { "value": "LN", "label": "LEBANON"
+        },
+        { "value": "LE", "label": "LESOTHO"
+        },
+        { "value": "LB", "label": "LIBERIA"
+        },
+        { "value": "LY", "label": "LIBYA"
+        },
+        { "value": "LI", "label": "LIECHTENSTEIN"
+        },
+        { "value": "LH", "label": "LITHUANIA"
+        },
+        { "value": "LA", "label": "LOUISIANA"
+        },
+        { "value": "LX", "label": "LUXEMBOURG"
+        },
+        { "value": "OC", "label": "MACAU"
+        },
+        { "value": "ZD", "label": "MACEDONIA"
+        },
+        { "value": "IM", "label": "MADEIRA ISLANDS"
+        },
+        { "value": "ME", "label": "MAINE"
+        },
+        { "value": "MP", "label": "MALAGASY REPUBLIC"
+        },
+        { "value": "MF", "label": "MALAWI"
+        },
+        { "value": "MZ", "label": "MALAYSIA"
+        },
+        { "value": "MV", "label": "MALDIVES"
+        },
+        { "value": "ML", "label": "MALI"
+        },
+        { "value": "MY", "label": "MALTA"
+        },
+        { "value": "IB", "label": "MAN, ISLE OF"
+        },
+        { "value": "KH", "label": "MANAHIKI ISLANDS"
+        },
+        { "value": "MB", "label": "MANITOBA, CANADA"
+        },
+        { "value": "MK", "label": "MARIANA ISLANDS"
+        },
+        { "value": "MH", "label": "MARSHALL ISLANDS"
+        },
+        { "value": "ZB", "label": "MARTINIQUE"
+        },
+        { "value": "MD", "label": "MARYLAND"
+        },
+        { "value": "MA", "label": "MASSACHUSETTS"
+        },
+        { "value": "MU", "label": "MAURITANIA"
+        },
+        { "value": "UM", "label": "MAURITIUS"
+        },
+        { "value": "IX", "label": "MENOMINEE INDIAN NATION"
+        },
+        { "value": "MM", "label": "MEXICO"
+        },
+        { "value": "MX", "label": "MEXICO, MEXICO"
+        },
+        { "value": "MI", "label": "MICHIGAN"
+        },
+        { "value": "MC", "label": "MICHOACAN, MEXICO"
+        },
+        { "value": "MW", "label": "MIDWAY ISLANDS"
+        },
+        { "value": "LC", "label": "MILE LACS"
+        },
+        { "value": "MN", "label": "MINNESOTA"
+        },
+        { "value": "MS", "label": "MISSISSIPPI"
+        },
+        { "value": "MO", "label": "MISSOURI"
+        },
+        { "value": "LD", "label": "MOLDOVA"
+        },
+        { "value": "MJ", "label": "MONACO"
+        },
+        { "value": "MG", "label": "MONGOLIA"
+        },
+        { "value": "MT", "label": "MONTANA"
+        },
+        { "value": "RR", "label": "MONTSERRAT"
+        },
+        { "value": "MR", "label": "MORELOS, MEXICO"
+        },
+        { "value": "MQ", "label": "MOROCCO"
+        },
+        { "value": "ZO", "label": "MOZAMBIQUE"
+        },
+        { "value": "SJ", "label": "NAMIBIA"
+        },
+        { "value": "NR", "label": "NAURU"
+        },
+        { "value": "NA", "label": "NAYARIT, MEXICO"
+        },
+        { "value": "NB", "label": "NEBRASKA"
+        },
+        { "value": "NP", "label": "NEPAL"
+        },
+        { "value": "NE", "label": "NETHERLANDS"
+        },
+        { "value": "NX", "label": "NETHERLANDS ANTILLES"
+        },
+        { "value": "NV", "label": "NEVADA"
+        },
+        { "value": "NK", "label": "NEW BRUNSWICK, CANADA"
+        },
+        { "value": "NQ", "label": "NEW CALEDONIA"
+        },
+        { "value": "NF", "label": "NEW FOUNDLAND, CANADA"
+        },
+        { "value": "NH", "label": "NEW HAMPSHIRE"
+        },
+        { "value": "NJ", "label": "NEW JERSEY"
+        },
+        { "value": "NM", "label": "NEW MEXICO"
+        },
+        { "value": "NY", "label": "NEW YORK"
+        },
+        { "value": "NZ", "label": "NEW ZEALAND"
+        },
+        { "value": "NU", "label": "NICARAGUA"
+        },
+        { "value": "NN", "label": "NIGER"
+        },
+        { "value": "NG", "label": "NIGERIA"
+        },
+        { "value": "IU", "label": "NIUE"
+        },
+        { "value": "OF", "label": "NORFOLK ISLAND"
+        },
+        { "value": "NC", "label": "NORTH CAROLINA"
+        },
+        { "value": "ND", "label": "NORTH DAKOTA"
+        },
+        { "value": "KN", "label": "NORTH KOREA"
+        },
+        { "value": "VN", "label": "NORTH VIETNAM"
+        },
+        { "value": "NI", "label": "NORTHERN IRELAND"
+        },
+        { "value": "NT", "label": "NORTHWEST TERRITORIES, CANADA"
+        },
+        { "value": "NW", "label": "NORWAY"
+        },
+        { "value": "NS", "label": "NOVA SCOTIA, CANADA"
+        },
+        { "value": "NL", "label": "NUEVO LEON, MEXICO"
+        },
+        { "value": "OA", "label": "OAXACA, MEXICO"
+        },
+        { "value": "OS", "label": "OGLALA SIOUX"
+        },
+        { "value": "OH", "label": "OHIO"
+        },
+        { "value": "OI", "label": "OKINAWA"
+        },
+        { "value": "OK", "label": "OKLAHOMA"
+        },
+        { "value": "OM", "label": "OMAN"
+        },
+        { "value": "ON", "label": "ONTARIO, CANADA"
+        },
+        { "value": "OR", "label": "OREGON"
+        },
+        { "value": "PK", "label": "PAKISTAN"
+        },
+        { "value": "PD", "label": "PALAU, REPUBLIC OF"
+        },
+        { "value": "PM", "label": "PANAMA"
+        },
+        { "value": "NO", "label": "PAPUA NEW GUINEA"
+        },
+        { "value": "PF", "label": "PARACEL ISLANDS"
+        },
+        { "value": "PV", "label": "PARAGUAY"
+        },
+        { "value": "PW", "label": "PASIG"
+        },
+        { "value": "PA", "label": "PENNSYLVANIA"
+        },
+        { "value": "ST", "label": "PEOPLE'S DEMO. REPUB. OF YEMEN"
+        },
+        { "value": "RC", "label": "PEOPLE'S REPUBLIC OF CHINA"
+        },
+        { "value": "PU", "label": "PERU"
+        },
+        { "value": "PI", "label": "PHILIPPINES"
+        },
+        { "value": "PC", "label": "PITCAIRN ISLANDS"
+        },
+        { "value": "PO", "label": "POLAND"
+        },
+        { "value": "PT", "label": "PORTUGAL"
+        },
+        { "value": "TI", "label": "PORTUGUESE TIMOR"
+        },
+        { "value": "PE", "label": "PRINCE EDWARD ISLAND, CANADA"
+        },
+        { "value": "PB", "label": "PUEBLA, MEXICO"
+        },
+        { "value": "PR", "label": "PUERTO RICO"
+        },
+        { "value": "QA", "label": "QATAR"
+        },
+        { "value": "PQ", "label": "QUEBEC, CANADA"
+        },
+        { "value": "QU", "label": "QUERETARO, MEXICO"
+        },
+        { "value": "QR", "label": "QUINTANA ROO, MEXICO"
+        },
+        { "value": "RL", "label": "RED LAKE INDIAN AGENCY"
+        },
+        { "value": "RB", "label": "REPUBLIC OF CONGO, BRAZZAVILLE"
+        },
+        { "value": "RE", "label": "REUNION"
+        },
+        { "value": "RI", "label": "RHODE ISLAND"
+        },
+        { "value": "RU", "label": "ROMANIA"
+        },
+        { "value": "RA", "label": "RUSSIA"
+        },
+        { "value": "RF", "label": "RUSSIAN FEDERATION"
+        },
+        { "value": "RW", "label": "RWANDA"
+        },
+        { "value": "FX", "label": "SAC & FOX"
+        },
+        { "value": "HS", "label": "SAINT HELENA"
+        },
+        { "value": "AW", "label": "SAINT KITTS-NEVIS-ANGUILLA"
+        },
+        { "value": "LU", "label": "SAINT LUCIA"
+        },
+        { "value": "PS", "label": "SAINT PIERRE AND MIQUELON"
+        },
+        { "value": "VV", "label": "SAINT VINCENT & THE GRENADINES"
+        },
+        { "value": "SL", "label": "SAN LUIS POTOSI, MEXICO"
+        },
+        { "value": "SH", "label": "SAN MARINO"
+        },
+        { "value": "TP", "label": "SAO TOME AND PRINCIPE"
+        },
+        { "value": "SN", "label": "SASKATSCHEWAN, CANADA"
+        },
+        { "value": "SB", "label": "SAUDI ARABIA"
+        },
+        { "value": "SS", "label": "SCOTLAND"
+        },
+        { "value": "SG", "label": "SENEGAL"
+        },
+        { "value": "RS", "label": "SERBIA"
+        },
+        { "value": "SE", "label": "SEYCHELLES"
+        },
+        { "value": "KP", "label": "SHAKOPEE"
+        },
+        { "value": "SA", "label": "SIERRA LEONE"
+        },
+        { "value": "SK", "label": "SIKKIM"
+        },
+        { "value": "SI", "label": "SINALOA, MEXICO"
+        },
+        { "value": "SR", "label": "SINGAPORE"
+        },
+        { "value": "LF", "label": "SLOVAKIA"
+        },
+        { "value": "LO", "label": "SLOVENIA"
+        },
+        { "value": "RV", "label": "SOCIALIST REPUBLIC OF VIETNAM"
+        },
+        { "value": "BS", "label": "SOLOMON ISLANDS"
+        },
+        { "value": "SM", "label": "SOMALIA"
+        },
+        { "value": "SO", "label": "SONORA, MEXICO"
+        },
+        { "value": "SF", "label": "SOUTH AFRICA"
+        },
+        { "value": "SC", "label": "SOUTH CAROLINA"
+        },
+        { "value": "SD", "label": "SOUTH DAKOTA"
+        },
+        { "value": "GS", "label": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISL"
+        },
+        { "value": "KO", "label": "SOUTH KOREA"
+        },
+        { "value": "VS", "label": "SOUTH VIETNAM"
+        },
+        { "value": "SP", "label": "SPAIN"
+        },
+        { "value": "TE", "label": "SPRATLY ISLANDS"
+        },
+        { "value": "CY", "label": "SRI LANKA"
+        },
+        { "value": "TS", "label": "ST. CHRISTOPHER"
+        },
+        { "value": "SU", "label": "SUDAN"
+        },
+        { "value": "ZC", "label": "SURINAM"
+        },
+        { "value": "SV", "label": "SVALBARD"
+        },
+        { "value": "SW", "label": "SWAZILAND"
+        },
+        { "value": "SQ", "label": "SWEDEN"
+        },
+        { "value": "SZ", "label": "SWITZERLAND"
+        },
+        { "value": "SY", "label": "SYRIA"
+        },
+        { "value": "TB", "label": "TABASCO, MEXICO"
+        },
+        { "value": "TW", "label": "TAIWAN, REPUBLIC OF CHINA"
+        },
+        { "value": "TJ", "label": "TAJIKISTAN"
+        },
+        { "value": "TA", "label": "TAMAULIPAS, MEXICO"
+        },
+        { "value": "TZ", "label": "TANZANIA, UNITED REPUBLIC OF"
+        },
+        { "value": "TN", "label": "TENNESSEE"
+        },
+        { "value": "YO", "label": "TERRITORIAL COLLECTIVITY OF MAYOTTE"
+        },
+        { "value": "TX", "label": "TEXAS"
+        },
+        { "value": "TH", "label": "THAILAND"
+        },
+        { "value": "TL", "label": "TLAXCALA, MEXICO"
+        },
+        { "value": "TO", "label": "TOGO"
+        },
+        { "value": "TK", "label": "TOKELAU"
+        },
+        { "value": "TG", "label": "TONGA"
+        },
+        { "value": "TQ", "label": "TONGAREVA"
+        },
+        { "value": "TT", "label": "TRINIDAD AND TOBAGO"
+        },
+        { "value": "TM", "label": "TROMELIN ISLAND"
+        },
+        { "value": "TF", "label": "TUAMOTO ARCHIPELAGO"
+        },
+        { "value": "TU", "label": "TUNISIA"
+        },
+        { "value": "TY", "label": "TURKEY"
+        },
+        { "value": "UR", "label": "TURKMENISTAN"
+        },
+        { "value": "TR", "label": "TURKS AND CAICOS ISLANDS"
+        },
+        { "value": "UC", "label": "TURTLE MOUNTAIN BAND OF CHIPEWA"
+        },
+        { "value": "TV", "label": "TUVALU"
+        },
+        { "value": "VI", "label": "U.S. VIRGIN ISLANDS"
+        },
+        { "value": "UG", "label": "UGANDA"
+        },
+        { "value": "UK", "label": "UKRAINE"
+        },
+        { "value": "TC", "label": "UNITED ARAB EMIRATES"
+        },
+        { "value": "UA", "label": "UNITED ARAB REPUBLIC"
+        },
+        { "value": "US", "label": "UNITED STATES OF AMERICA"
+        },
+        { "value": "XX", "label": "UNKNOWN"
+        },
+        { "value": "UY", "label": "URUGUAY"
+        },
+        { "value": "SX", "label": "USSR/SOVIET UNION"
+        },
+        { "value": "UT", "label": "UTAH"
+        },
+        { "value": "UZ", "label": "UZBEKISTAN"
+        },
+        { "value": "HN", "label": "VANUATU"
+        },
+        { "value": "VY", "label": "VATICAN CITY"
+        },
+        { "value": "VZ", "label": "VENEZUELA"
+        },
+        { "value": "VC", "label": "VERACRUZ, MEXICO"
+        },
+        { "value": "VT", "label": "VERMONT"
+        },
+        { "value": "VM", "label": "VIET NAM"
+        },
+        { "value": "VA", "label": "VIRGINIA"
+        },
+        { "value": "WK", "label": "WAKE ISLAND"
+        },
+        { "value": "WL", "label": "WALES"
+        },
+        { "value": "WF", "label": "WALLIS AND FUTUNA"
+        },
+        { "value": "WA", "label": "WASHINGTON"
+        },
+        { "value": "WB", "label": "WEST BANK"
+        },
+        { "value": "WG", "label": "WEST GERMANY"
+        },
+        { "value": "WN", "label": "WEST INDIES"
+        },
+        { "value": "WV", "label": "WEST VIRGINIA"
+        },
+        { "value": "RS", "label": "WESTERN SAHARA"
+        },
+        { "value": "WS", "label": "WESTERN SAMOA"
+        },
+        { "value": "WI", "label": "WISCONSIN"
+        },
+        { "value": "WY", "label": "WYOMING"
+        },
+        { "value": "YE", "label": "YEMEN ARAB REPUBLIC"
+        },
+        { "value": "YU", "label": "YUCATAN, MEXICO"
+        },
+        { "value": "YG", "label": "YUGOSLAVIA"
+        },
+        { "value": "YT", "label": "YUKON TERRITORY, CANADA"
+        },
+        { "value": "ZA", "label": "ZACATECAS, MEXICO"
+        },
+        { "value": "ZR", "label": "ZAIRE"
+        },
+        { "value": "ZM", "label": "ZAMBIA"
+        },
+        { "value": "RH", "label": "ZIMBABWE"
+        }
+      ]
+    },
+    {
+    "DS_RAC": [
+      {
+        "label":
+          "American Indian or Alaskan Native",
+         "value": "I"
+      },
+      {
+        "label":
+          "Black",
+        "value": "B"
+      },
+      {
+        "label":
+          "White or Latino",
+        "value": "W"
+      },
+      {
+        "label":
+          "Asian or Pacific Islander",
+        "value": "A"
+      },
+      {
+        "label":
+          "Indeterminable or Unknown",
+        "value": "U"
+      }
+    ]
+  }
+]
+
+},
+{
+  "data": [
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_COMPUTER_NAME": "platoshka",
+      "T0_DATE_MODIFIED": "2022-04-19",
+      "T1_TCN": "1225A15053153",
+      "T2_NAM_LNAME": "ROWE",
+      "T2_NAM_FNAME": "SCOTT",
+      "T2_NAM_MNAME": "BRIAN",
+      "T2_DOB": "2000-09-19",
+      "T2_SEX": "Male",
+      "T1_TOT": "Illinois Fee Applicant",
+      "T2_RAC": "White or Latino",
+      "T2_HGT": "7'02\"",
+      "T2_WGT": "180",
+      "T2_POB":"ILLINOIS",
+      "T2_SOC":"123-12-4234",
+      "T2_ORI":"IL920630Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_COMPUTER_NAME": "platoshka",
+      "T0_DATE_MODIFIED": "2022-04-10",
+      "T1_TCN": "1225A15053150",
+      "T2_NAM_LNAME": "BUSH",
+      "T2_NAM_FNAME": "ELLEN",
+      "T2_NAM_MNAME": "LAMAR",
+      "T2_DOB": "1986-09-19",
+      "T2_SEX": "Female",
+      "T1_TOT": "Illinois Access and Review",
+      "T2_RAC": "Asian or Pacific Islander",
+      "T2_HGT": "6'02\"",
+      "T2_WGT": "135",
+      "T2_POB":"NEVADA",
+      "T2_SOC":"123-43-4442",
+      "T2_ORI":"IL920717Z",
+      "T2_REQ_NAM":"Requestor name",
+      "T2_REQ_AGENCY":"Agency",
+      "T2_REQ_ADD":"600 N Clark St",
+      "T2_REQ_CTY":"Chicago",
+      "T2_REQ_STA":"Illinois",
+      "T2_REQ_ZIP":"60610"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_COMPUTER_NAME": "not platoshka",
+      "T0_DATE_MODIFIED": "2022-04-01",
+      "T1_TCN": "1225A15053156",
+      "T2_NAM_LNAME": "SMITH",
+      "T2_NAM_FNAME": "ASHLEY",
+      "T2_NAM_MNAME": "SUMMER",
+      "T2_DOB": "1987-09-19",
+      "T2_SEX": "Female",
+      "T1_TOT": "Illinois Fee Applicant",
+      "T2_RAC": "Asian or Pacific Islander",
+      "T2_HGT": "6'00\"",
+      "T2_WGT": "110",
+      "T2_POB":"NEVADA",
+      "T2_SOC":"123-12-3424",
+      "T2_ORI":"IL920500Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_DATE_MODIFIED": "2022-04-04",
+      "T1_TCN": "1225A15053159",
+      "T2_NAM_LNAME": "MCDONALD",
+      "T2_NAM_FNAME": "BRITTANY",
+      "T2_NAM_MNAME": "",
+      "T2_DOB": "1999-01-09",
+      "T2_SEX": "Female",
+      "T1_TOT": "Illinois Access and Review",
+      "T2_RAC": "Asian or Pacific Islander",
+      "T2_HGT": "5'11\"",
+      "T2_WGT": "111",
+      "T2_POB":"ILLINOIS",
+      "T2_SOC":"358-12-4234",
+      "T2_ORI":"IL920690Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_DATE_MODIFIED": "2022-03-01",
+      "T1_TCN": "1225A15053152",
+      "T2_NAM_LNAME": "MATTHEWS",
+      "T2_NAM_FNAME": "JEFFREY",
+      "T2_NAM_MNAME": "SEAN",
+      "T2_DOB": "1958-10-10",
+      "T2_SEX": "Male",
+      "T1_TOT": "Illinois Fee Applicant",
+      "T2_RAC": "White or Latino",
+      "T2_HGT": "6'03\"",
+      "T2_WGT": "130",
+      "T2_POB":"ILLINOIS",
+      "T2_SOC":"995-12-4234",
+      "T2_ORI":"IL920500Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_DATE_MODIFIED": "2022-03-03",
+      "T1_TCN": "1225A15053151",
+      "T2_NAM_LNAME": "ORTIZ",
+      "T2_NAM_FNAME": "MARY",
+      "T2_NAM_MNAME": "ENEAS",
+      "T2_DOB": "1988-02-19",
+      "T2_SEX": "Female",
+      "T1_TOT": "Illinois Fee Applicant",
+      "T2_RAC": "White or Latino",
+      "T2_HGT": "6'03\"",
+      "T2_WGT": "119",
+      "T2_POB":"ILLINOIS",
+      "T2_SOC":"190-00-3334",
+      "T2_ORI":"IL920500Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_DATE_MODIFIED": "2022-03-19",
+      "T1_TCN": "1225A15053157",
+      "T2_NAM_LNAME": "TRAVIS",
+      "T2_NAM_FNAME": "WILLIAM",
+      "T2_NAM_MNAME": "FARZAN",
+      "T2_DOB": "1990-09-19",
+      "T2_SEX": "Male",
+      "T1_TOT": "Illinois Fee Applicant",
+      "T2_RAC": "Black",
+      "T2_HGT": "6'11\"",
+      "T2_WGT": "103",
+      "T2_POB":"ILLINOIS",
+      "T2_SOC":"928-72-6254",
+      "T2_ORI":"IL920500Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_DATE_MODIFIED": "2022-03-23",
+      "T1_TCN": "1225A15053158",
+      "T2_NAM_LNAME": "VASQUEZ",
+      "T2_NAM_FNAME": "KENNETH",
+      "T2_NAM_MNAME": "",
+      "T2_DOB": "1980-09-19",
+      "T2_SEX": "Male",
+      "T1_TOT": "Illinois Access and Review",
+      "T2_RAC": "Black",
+      "T2_HGT": "5'10\"",
+      "T2_WGT": "100",
+      "T2_POB":"ILLINOIS",
+      "T2_SOC":"993-12-4234",
+      "T2_ORI":"IL920500Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_DATE_MODIFIED": "2022-02-19",
+      "T1_TCN": "1225A15053160",
+      "T2_NAM_LNAME": "BROOKS",
+      "T2_NAM_FNAME": "SYLVIA",
+      "T2_NAM_MNAME": "",
+      "T2_DOB": "1975-04-24",
+      "T2_SEX": "Female",
+      "T1_TOT": "Illinois Fee Applicant",
+      "T2_RAC": "White or Latino",
+      "T2_HGT": "5'10\"",
+      "T2_WGT": "130",
+      "T2_POB":"ILLINOIS",
+      "T2_SOC":"183-12-0034",
+      "T2_ORI":"IL920500Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_DATE_MODIFIED": "2022-02-20",
+      "T1_TCN": "1225A15433161",
+      "T2_NAM_LNAME": "CLARKE",
+      "T2_NAM_FNAME": "BRIDGET",
+      "T2_NAM_MNAME": "SAHAR",
+      "T2_DOB": "2000-09-19",
+      "T2_SEX": "Female",
+      "T1_TOT": "Illinois Fee Applicant",
+      "T2_RAC": "American Indian or Alaskan Native",
+      "T2_HGT": "6'02\"",
+      "T2_WGT": "132",
+      "T2_POB":"PERU",
+      "T2_SOC":"129-12-4999",
+      "T2_ORI":"IL920500Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_DATE_MODIFIED": "2022-02-21",
+      "T1_TCN": "1225A15053100",
+      "T2_NAM_LNAME": "PEARSON",
+      "T2_NAM_FNAME": "RICHARD",
+      "T2_NAM_MNAME": "YIANNI",
+      "T2_DOB": "2000-09-19",
+      "T2_SEX": "Male",
+      "T1_TOT": "Illinois Fee Applicant",
+      "T2_RAC": "White or Latino",
+      "T2_HGT": "7'02\"",
+      "T2_WGT": "170",
+      "T2_POB":"ILLINOIS",
+      "T2_SOC":"453-12-4234",
+      "T2_ORI":"IL920500Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_DATE_MODIFIED": "2022-02-21",
+      "T1_TCN": "1225A15053162",
+      "T2_NAM_LNAME": "MARKS",
+      "T2_NAM_FNAME": "QTOM",
+      "T2_NAM_MNAME": "",
+      "T2_DOB": "1977-07-17",
+      "T2_SEX": "Male",
+      "T1_TOT": "Illinois Access and Review",
+      "T2_RAC": "American Indian or Alaskan Native",
+      "T2_HGT": "6'07\"",
+      "T2_WGT": "160",
+      "T2_POB":"ILLINOIS",
+      "T2_SOC":"585-48-2822",
+      "T2_ORI":"IL920500Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_DATE_MODIFIED": "2022-02-30",
+      "T1_TCN": "1225A15053163",
+      "T2_NAM_LNAME": "MARKS",
+      "T2_NAM_FNAME": "QTOM",
+      "T2_NAM_MNAME": "",
+      "T2_DOB": "1981-09-19",
+      "T2_SEX": "Male",
+      "T1_TOT": "Illinois Fee Applicant",
+      "T2_RAC": "White or Latino",
+      "T2_HGT": "7'00\"",
+      "T2_WGT": "171",
+      "T2_SOC":"534-42-2335",
+      "T2_ORI":"IL920500Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_DATE_MODIFIED": "2021-12-19",
+      "T1_TCN": "1445A15053164",
+      "T2_NAM_LNAME": "MARKS",
+      "T2_NAM_FNAME": "QTOM",
+      "T2_NAM_MNAME": "",
+      "T2_DOB": "1972-09-19",
+      "T2_SEX": "Male",
+      "T1_TOT": "Illinois Fee Applicant",
+      "T2_RAC": "American Indian or Alaskan Native",
+      "T2_HGT": "6'09\"",
+      "T2_WGT": "143",
+      "T2_POB":"ILLINOIS",
+      "T2_SOC":"765-74-3543",
+      "T2_ORI":"IL920500Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_DATE_MODIFIED": "2021-12-19",
+      "T1_TCN": "1225A15053165",
+      "T2_NAM_LNAME": "TTT",
+      "T2_NAM_FNAME": "QTOM",
+      "T2_NAM_MNAME": "",
+      "T2_DOB": "1974-09-19",
+      "T2_SEX": "Male",
+      "T1_TOT": "Illinois Fee Applicant",
+      "T2_RAC": "American Indian or Alaskan Native",
+      "T2_HGT": "6'11\"",
+      "T2_WGT": "153",
+      "T2_POB":"ILLINOIS",
+      "T2_SOC":"343-54-3534",
+      "T2_ORI":"IL920500Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_DATE_MODIFIED": "2021-12-19",
+      "T1_TCN": "1225A15053166",
+      "T2_NAM_LNAME": "PLAD",
+      "T2_NAM_FNAME": "QTOM",
+      "T2_NAM_MNAME": "",
+      "T2_DOB": "1999-09-19",
+      "T2_SEX": "Male",
+      "T1_TOT": "Illinois Fee Applicant",
+      "T2_RAC": "White or Latino",
+      "T2_HGT": "6'03\"",
+      "T2_WGT": "154",
+      "T2_POB":"ILLINOIS",
+      "T2_SOC":"654-63-4224",
+      "T2_ORI":"IL920500Z"
+    },
+    {
+      "T0_STATUS": "NotSubmitted",
+      "T0_DATE_MODIFIED": "2021-08-30",
+      "T1_TCN": "1225A15053167",
+      "T2_NAM_LNAME": "QARKS",
+      "T2_NAM_FNAME": "QTOM",
+      "T2_NAM_MNAME": "",
+      "T2_DOB": "1986-09-19",
+      "T2_SEX": "Male",
+      "T1_TOT": "Illinois Fee Applicant",
+      "T2_RAC": "Black",
+      "T2_HGT": "7'02\"",
+      "T2_WGT": "180",
+      "T2_POB":"ILLINOIS",
+      "T2_SOC":"432-43-2356",
+      "T2_ORI":"ILBGA000Z"
+    }
+  ]
+}  
+  ]
   
