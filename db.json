@@ -116,49 +116,6 @@
           "characterType":"Numeric",
           "inputMaskType":"SSN",
           "description":"The subject’s social security number, if known. No foreign social security numbers shall be used."
-        },
-        {
-          "mnemonic": "T2_SKN",
-          "name":"Skin Tone",
-          "characterCasing":"Upper",
-          "dataSource":"DS_SKN",
-          "description":"The subject's skin tone."
-        },
-        {
-          "mnemonic": "T2_RES_ADD",
-          "name":"Subject's Street Address",
-          "characterType":"AlphaNumeric",
-          "characterCasing":"Upper",
-          "minLength":"1",
-          "maxLength":"60",
-          "specialCharacters":" -.&amp;#",
-          "description":"The subject's street address."
-        },
-        {
-          "mnemonic": "T2_RES_CTY",
-          "name":"City of Subject's Address",
-          "characterType":"Alpha",
-          "characterCasing":"Upper",
-          "minLength":"1",
-          "maxLength":"40",
-          "specialCharacters":" ",
-          "description":"The city of the subject's address."
-        },
-        {
-          "mnemonic": "T2_RES_STA",
-          "name":"State of the Subject's Address",
-          "characterCasing":"Upper",
-          "dataSource":"DS_STA",
-          "description":"The state of the subject's address"
-        },
-        {
-          "mnemonic": "T2_RES_ZIP",
-          "name":"ZIP Code of the Subject's Address",
-          "characterType":"Numeric",
-          "characterCasing":"Upper",
-          "minLength":"5",
-          "maxLength":"9",
-          "description":"The zip code of the subject's address."
         }
     ],
     "ARR": [
@@ -260,66 +217,6 @@
           "characterCasing":"Upper",
           "dataSource":"DS_CTZ",
           "description":"The name of the country of which the subject is a citizen."
-        },
-        {
-          "mnemonic": "T2_AKA",
-          "name":"Alias",
-          "characterType":"Alpha",
-          "characterCasing":"Upper",
-          "minLength":"3",
-          "maxLength":"30",
-          "specialCharacters":",-",
-          "description":"The alias names of the subject. Up to ten aliases may be provided. The format shall be the surname followed by a comma (,), followed by the given name(s) separated by a space."
-        },
-        {
-          "mnemonic": "T2_SOC",
-          "name":"SSN",
-          "characterType":"Numeric",
-          "inputMaskType":"SSN",
-          "description":"The subject’s social security number, if known. No foreign social security numbers shall be used."
-        },
-        {
-          "mnemonic": "T2_SKN",
-          "name":"Skin Tone",
-          "characterCasing":"Upper",
-          "dataSource":"DS_SKN",
-          "description":"The subject's skin tone."
-        },
-        {
-          "mnemonic": "T2_RES_ADD",
-          "name":"Subject's Street Address",
-          "characterType":"AlphaNumeric",
-          "characterCasing":"Upper",
-          "minLength":"1",
-          "maxLength":"60",
-          "specialCharacters":" -.&amp;#",
-          "description":"The subject's street address."
-        },
-        {
-          "mnemonic": "T2_RES_CTY",
-          "name":"City of Subject's Address",
-          "characterType":"Alpha",
-          "characterCasing":"Upper",
-          "minLength":"1",
-          "maxLength":"40",
-          "specialCharacters":" ",
-          "description":"The city of the subject's address."
-        },
-        {
-          "mnemonic": "T2_RES_STA",
-          "name":"State of the Subject's Address",
-          "characterCasing":"Upper",
-          "dataSource":"DS_STA",
-          "description":"The state of the subject's address"
-        },
-        {
-          "mnemonic": "T2_RES_ZIP",
-          "name":"ZIP Code of the Subject's Address",
-          "characterType":"Numeric",
-          "characterCasing":"Upper",
-          "minLength":"5",
-          "maxLength":"9",
-          "description":"The zip code of the subject's address."
         }
     ],
     "UFP": [
@@ -423,64 +320,11 @@
           "description":"The name of the country of which the subject is a citizen."
         },
         {
-          "mnemonic": "T2_AKA",
-          "name":"Alias",
-          "characterType":"Alpha",
-          "characterCasing":"Upper",
-          "minLength":"3",
-          "maxLength":"30",
-          "specialCharacters":",-",
-          "description":"The alias names of the subject. Up to ten aliases may be provided. The format shall be the surname followed by a comma (,), followed by the given name(s) separated by a space."
-        },
-        {
           "mnemonic": "T2_SOC",
           "name":"SSN",
           "characterType":"Numeric",
           "inputMaskType":"SSN",
           "description":"The subject’s social security number, if known. No foreign social security numbers shall be used."
-        },
-        {
-          "mnemonic": "T2_SKN",
-          "name":"Skin Tone",
-          "characterCasing":"Upper",
-          "dataSource":"DS_SKN",
-          "description":"The subject's skin tone."
-        },
-        {
-          "mnemonic": "T2_RES_ADD",
-          "name":"Subject's Street Address",
-          "characterType":"AlphaNumeric",
-          "characterCasing":"Upper",
-          "minLength":"1",
-          "maxLength":"60",
-          "specialCharacters":" -.&amp;#",
-          "description":"The subject's street address."
-        },
-        {
-          "mnemonic": "T2_RES_CTY",
-          "name":"City of Subject's Address",
-          "characterType":"Alpha",
-          "characterCasing":"Upper",
-          "minLength":"1",
-          "maxLength":"40",
-          "specialCharacters":" ",
-          "description":"The city of the subject's address."
-        },
-        {
-          "mnemonic": "T2_RES_STA",
-          "name":"State of the Subject's Address",
-          "characterCasing":"Upper",
-          "dataSource":"DS_STA",
-          "description":"The state of the subject's address"
-        },
-        {
-          "mnemonic": "T2_RES_ZIP",
-          "name":"ZIP Code of the Subject's Address",
-          "characterType":"Numeric",
-          "characterCasing":"Upper",
-          "minLength":"5",
-          "maxLength":"9",
-          "description":"The zip code of the subject's address."
         }
     ]
   }
